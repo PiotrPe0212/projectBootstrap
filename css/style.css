@@ -1,0 +1,210 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#first {
+    background-image: linear-gradient(to bottom, rgba(42, 40, 40, 0.24), rgba(42, 40, 40, 0.24)), url(../img/header/pictures_on_the_wall.jpg);
+    /*    background-color: #777;*/
+    /*    background-blend-mode: multiply;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.navbar-brand {
+    font-family: 'Droid Serif', sans-serif;
+
+    font-size: 2em;
+}
+
+#navbarNav .nav-item a {
+    color: #fff;
+    font-family: 'Monserrat', sans-serif;
+
+}
+
+#navbarNav .nav-item a:hover {
+    color: #0ed8d6;
+
+}
+
+#first h2 {
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 3em;
+}
+
+#first h1 {
+    font-family: 'Monserrat', sans-serif;
+    font-size: 4em;
+}
+
+#first .button {
+    background-color: #0ed8d6;
+    border-color: #2b666d;
+    font-family: 'Monserrat', sans-serif;
+}
+
+#first .button:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+#second .circle {
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #0ed8d6;
+    color: #fff;
+    transition: 1s;
+}
+
+#second .circle:hover {
+    transform: rotateZ(360deg);
+    color: #0ed8d6;
+    background-color: #fff;
+    border: 2px solid #0ed8d6;
+}
+
+.header {
+    padding: 50px 0 0 0;
+    text-align: center;
+    font-family: 'Monserrant', sans-serif;
+    color: #333;
+    font-weight: 600;
+}
+
+.afterHeader {
+    font-family: 'Droid Serif', sans-serif;
+
+}
+
+.iconBox {
+    width: 70%;
+}
+
+#third {
+    width: 100vw;
+    background-color: #f7f7f7;
+}
+
+#third .photo {
+    height: 300px;
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+#third .box {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+#third .addHover {
+    background-color: rgba(14, 216, 214, 0);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+#third .addHover:hover {
+    opacity: 1;
+    background-color: rgba(14, 216, 214, 0.6);
+}
+
+#third .photo:hover {
+    background-size: 250%;
+}
+
+#third .photo1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+#third .photo2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+#third .photo3 {
+    background-size: 100%;
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+#third .photo4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+#third .photo5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+#third .photo6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+#fourth .personPhoto {
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#fourth .personPhoto1 {
+    background-image: url(../img/team/man-1.jpg);
+}
+
+#fourth .personPhoto2 {
+    background-image: url(../img/team/man-2.jpg);
+
+}
+
+#fourth .personPhoto3 {
+    background-image: url(../img/team/woman-1.jpg);
+
+}
+
+#fourth .social {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    margin: 5px 5px;
+}
+
+#fourth .social:hover {
+    background-color: #0ed8d6;
+
+}
+
+#fifth {
+    background-image: linear-gradient(to bottom, rgba(42, 40, 40, 0.24), rgba(42, 40, 40, 0.24)), url(../img/footer/world-map.jpg);
+     background-position: center;
+    background-size: cover;
+
+}
+#fifth .contact{
+    height: 120px;
+    width: 300px;
+}
+#fifth textarea{
+    height: 120px;
+ 
+    border-radius: 5px;
+}
+#fifth .data{
+        border-radius: 5px;
+    width: 300px;
+}
