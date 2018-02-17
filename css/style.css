@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Slab', serif;
+    color: #777
 }
 
 #first {
@@ -79,7 +80,10 @@ body {
 
 .afterHeader {
     font-family: 'Droid Serif', sans-serif;
+}
 
+h3 {
+    color: #333;
 }
 
 .iconBox {
@@ -173,38 +177,82 @@ body {
 
 }
 
-#fourth .social {
+.social {
     width: 30px;
     height: 30px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
-    background-color: black;
+    background-color: #222222;
     color: #fff;
     margin: 5px 5px;
 }
 
-#fourth .social:hover {
+.social:hover {
     background-color: #0ed8d6;
 
 }
 
 #fifth {
     background-image: linear-gradient(to bottom, rgba(42, 40, 40, 0.24), rgba(42, 40, 40, 0.24)), url(../img/footer/world-map.jpg);
-     background-position: center;
+    background-position: center;
     background-size: cover;
+    height: 90vh;
+}
+
+#fifth .header {
+    color: #fff;
+}
+
+#fifth .contact {
+
+    /*    width: 300px;*/
+}
+
+#fifth textarea,
+.data {
+    width: 100%;
+    border-radius: 5px;
+    border-color: transparent;
+    font-family: 'Monserrat', sans-serif;
+    padding: 10px;
 
 }
-#fifth .contact{
-    height: 120px;
-    width: 300px;
+
+#fifth textarea {
+    height: 158px;
+    margin-bottom: 10px;
+
+
 }
-#fifth textarea{
-    height: 120px;
- 
+
+#fifth .data {
+/*    margin-left: 30%;*/
+    margin-bottom: 10px;
+}
+
+#fifth .send {
     border-radius: 5px;
+    color: #fff;
+    background-color: #0ed8d6;
+    border-color: transparent;
+    font-family: 'Monserrat', sans-serif;
+    padding: 5px;
 }
-#fifth .data{
-        border-radius: 5px;
-    width: 300px;
+
+#fifth .send:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+#footer {
+    height: 80px;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 0.7em;
+
+
+}
+
+#footer a {
+    color: #777
 }
